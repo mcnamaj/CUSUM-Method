@@ -15,11 +15,3 @@ CUSUM <- function(x){
   return(Zn)
   plot.ts(Zn)
 }
-
-CUSUM(combinedSequence)
- 
-rm(Mn)
-
-
-Mn <- (1/var(combinedSequence))*(min(Zn))
-Mn
